@@ -1,0 +1,1687 @@
+[
+  {
+    "tag": "0582",
+    "bron": "Atiyah-MacDonald: linker-exactheid van Hom via eerste isomorfietheorema",
+    "tijd": "2026-11-05T04:14:50.403842+00:00"
+  },
+  {
+    "tag": "00D6",
+    "bron": "universele eigenschap gerichte colimieten",
+    "tijd": "2026-11-05T04:14:51.507047+00:00"
+  },
+  {
+    "tag": "00CR",
+    "bron": "lokalisatie als gerichte colimiet (hints Columbia)",
+    "tijd": "2026-11-05T04:14:51.727600+00:00"
+  },
+  {
+    "tag": "002M",
+    "bron": "Mac Lane: Yoneda/Cocone, colimieten commuteren",
+    "tijd": "2026-11-05T04:14:52.841544+00:00"
+  },
+  {
+    "tag": "00LR",
+    "bron": "kettinghomotopie: homotopie-invariantie homologie",
+    "tijd": "2026-11-05T04:14:53.057208+00:00"
+  },
+  {
+    "tag": "007T",
+    "bron": "Hartshorne AG II Prop 1.1 (stelen-exactness)",
+    "tijd": "2026-11-05T04:14:54.166558+00:00"
+  },
+  {
+    "tag": "008O",
+    "bron": "gefilterde colimieten in Ab (Mac Lane & Moerdijk)",
+    "tijd": "2026-11-05T04:14:54.383289+00:00"
+  },
+  {
+    "tag": "0754",
+    "bron": "Serre/Gabriel: karakterisering van zwakke Serre-subcategorieën via kernen, cokernen en extensies",
+    "tijd": "2026-11-05T04:17:18.762822+00:00"
+  },
+  {
+    "tag": "02MP",
+    "bron": "Serre/Gabriel: karakterisering van Serre-subcategorieën via deelobjecten, quotiënten en extensies",
+    "tijd": "2026-11-05T04:17:19.876237+00:00"
+  },
+  {
+    "tag": "0BDV",
+    "bron": "McCleary/Weibel: convergentie, begrensdheid en (co)regulariteit van spectraalrijen",
+    "tijd": "2026-11-05T04:17:20.100539+00:00"
+  },
+  {
+    "tag": "012V",
+    "bron": "Eilenberg-Moore/Weibel: convergentie en abutment van spectraalrijen van gefilterde complexen",
+    "tijd": "2026-11-05T04:17:21.209048+00:00"
+  },
+  {
+    "tag": "007K",
+    "bron": "Hartshorne AG II / Godement: stelen van tensorproduct van preschoven via gefilterde colimieten",
+    "tijd": "2026-11-05T04:17:21.426269+00:00"
+  },
+  {
+    "tag": "04E7",
+    "bron": "Mac Lane CWM IX.3 (Theorema 1): cofinale functoren conserveren colimieten via Yoneda/Cocones",
+    "tijd": "2026-11-05T04:17:22.542619+00:00"
+  },
+  {
+    "tag": "05SB",
+    "bron": "Gabriel-Zisman: inverteerbaarheid van afgeleide functoren op quasi-isomorfismen via cofinale fracties",
+    "tijd": "2026-11-05T04:30:21.818487+00:00"
+  },
+  {
+    "tag": "0089",
+    "bron": "Godement/Artin: vergarving van preschoven van modulen commuteert met eindige producten en stelen",
+    "tijd": "2026-11-05T04:30:22.930046+00:00"
+  },
+  {
+    "tag": "01CB",
+    "bron": "Hartshorne AG II / Bourbaki: stelen van tensorproduct van modulen via colimiet-commutatie",
+    "tijd": "2026-11-05T04:30:23.155408+00:00"
+  },
+  {
+    "tag": "05T1",
+    "bron": "Verdier/Gabriel-Zisman: bestaan van afgeleide functoren via berekenende objecten en inversie op S (05SB)",
+    "tijd": "2026-11-05T04:36:16.826010+00:00"
+  },
+  {
+    "tag": "05AA",
+    "bron": "Yoneda/Mac Lane: karakterisering van korte exacte rijen in abelse categorieën via Hom-representeerbaarheid",
+    "tijd": "2026-11-05T04:36:17.933958+00:00"
+  },
+  {
+    "tag": "002N",
+    "bron": "Mac Lane CWM V.2 (Theorema 1): existentie van alle limieten via producten en equalizers",
+    "tijd": "2026-11-05T04:44:58.365750+00:00"
+  },
+  {
+    "tag": "002P",
+    "bron": "Mac Lane CWM V.2 (Theorema 2): existentie van alle colimieten via coproducten en coequalizers",
+    "tijd": "2026-11-05T04:44:59.481301+00:00"
+  },
+  {
+    "tag": "00CY",
+    "bron": "Atiyah-MacDonald Prop 2.14: commutativiteit, distributiviteit en eenheid van tensorproducten",
+    "tijd": "2026-11-05T05:06:08.768699+00:00"
+  },
+  {
+    "tag": "00CZ",
+    "bron": "Atiyah-MacDonald Prop 2.14 / Bourbaki Algèbre II: universele eigenschap van multilineaire tensorproducten",
+    "tijd": "2026-11-05T05:06:09.908888+00:00"
+  },
+  {
+    "tag": "01HO",
+    "bron": "Hartshorne AG II Prop 5.9 / EGA I §4.2: unieke factorisatie van gesloten immersies via kern-ideaalschoof",
+    "tijd": "2026-11-05T05:06:10.138647+00:00"
+  },
+  {
+    "tag": "01HL",
+    "bron": "Grothendieck EGA I §4.2.2: gesloten immersies van lokaal geringde ruimten zijn lokaal op het doel",
+    "tijd": "2026-11-05T05:06:11.255271+00:00"
+  },
+  {
+    "tag": "008Q",
+    "bron": "Bourbaki, Algèbre I / Grothendieck, EGA 0_I §3.1 (f-morphisms of sheaves of algebraic structures)",
+    "tijd": "2026-11-05T13:15:16.295308+00:00"
+  },
+  {
+    "tag": "00AG",
+    "bron": "Grothendieck, Tohoku (1957) Prop 2.1.2 / Hartshorne AG II Prop 1.19 (closed immersion pushforward abelian)",
+    "tijd": "2026-11-05T13:15:16.295308+00:00"
+  },
+  {
+    "tag": "00AH",
+    "bron": "Grothendieck, Tohoku (1957) / Godement Théorie des faisceaux II §2.9 (closed immersion pushforward algebraic structures)",
+    "tijd": "2026-11-05T13:15:16.295308+00:00"
+  },
+  {
+    "tag": "01JS",
+    "bron": "Grothendieck, EGA I §3.2 Thm 3.2.6 / Hartshorne AG II Thm 3.3 (affine cover of scheme fibre product)",
+    "tijd": "2026-11-05T13:15:16.295308+00:00"
+  },
+  {
+    "tag": "01K5",
+    "bron": "Grothendieck, EGA I §6.1.4, EGA IV §1.2.2 / Hartshorne AG II Ex 3.25 (quasi-compact morphisms stable under base change)",
+    "tijd": "2026-11-05T13:15:16.295308+00:00"
+  },
+  {
+    "tag": "0H7H",
+    "bron": "Godement, Théorie des faisceaux II §1.3 Thm 1.3.1 / Hartshorne AG II Prop 1.1 (stalk exactness of sheaf epi/mono)",
+    "tijd": "2026-11-05T13:37:59.027824+00:00"
+  },
+  {
+    "tag": "0AAD",
+    "bron": "Matsumura CRT §17 Thm 17.3 / Bruns & Herzog Prop 1.2.10 (Cohen-Macaulay over quotient rings)",
+    "tijd": "2026-11-05T13:37:59.027824+00:00"
+  },
+  {
+    "tag": "00HW",
+    "bron": "Matsumura CRT §9 / Atiyah-MacDonald Chap 5 / Bourbaki Alg. Comm. V §2 (going-up and going-down as specialization lifting)",
+    "tijd": "2026-11-05T13:37:59.027824+00:00"
+  },
+  {
+    "tag": "0130",
+    "bron": "Weibel, Introduction to Homological Algebra §5.6 / Mac Lane CWM XI §6 (spectral sequences of double complexes)",
+    "tijd": "2026-11-05T13:37:59.027824+00:00"
+  },
+  {
+    "tag": "006J",
+    "bron": "Godement, Théorie des faisceaux II §1.1 / Bourbaki (presheaves of abelian groups)",
+    "tijd": "2026-11-05T13:45:59.111980+00:00"
+  },
+  {
+    "tag": "007H",
+    "bron": "Mac Lane, Categories for the Working Mathematician IX / Godement (stalks as filtered colimits)",
+    "tijd": "2026-11-05T13:45:59.111980+00:00"
+  },
+  {
+    "tag": "007J",
+    "bron": "Godement, Théorie des faisceaux II §1.2 / Hartshorne AG II §1 (stalk of presheaf of modules)",
+    "tijd": "2026-11-05T13:45:59.111980+00:00"
+  },
+  {
+    "tag": "007N",
+    "bron": "Bourbaki, Algèbre I / Godement (algebraic structures on sheaves)",
+    "tijd": "2026-11-05T13:45:59.111980+00:00"
+  },
+  {
+    "tag": "007O",
+    "bron": "Bourbaki, Algèbre I / Mac Lane CWM V (properties of algebraic structures)",
+    "tijd": "2026-11-05T13:45:59.111980+00:00"
+  },
+  {
+    "tag": "0H7I",
+    "bron": "Godement, Théorie des faisceaux II §1.2 / Hartshorne AG II Prop 1.2 (sheafification preserves epi/mono)",
+    "tijd": "2026-11-05T13:45:59.111980+00:00"
+  },
+  {
+    "tag": "009B",
+    "bron": "Godement, Théorie des faisceaux II §2.1 / Hartshorne AG II Ex 1.17 (stalks of skyscraper sheaves)",
+    "tijd": "2026-11-05T13:45:59.111980+00:00"
+  },
+  {
+    "tag": "009C",
+    "bron": "Godement, Théorie des faisceaux II §2.1 / Hartshorne AG II Ex 1.17 (skyscraper stalk adjunction)",
+    "tijd": "2026-11-05T13:45:59.111980+00:00"
+  },
+  {
+    "tag": "009Y",
+    "bron": "Godement, Théorie des faisceaux II §1.2 / Hartshorne AG II §1 (f-morphisms on bases)",
+    "tijd": "2026-11-05T13:45:59.111980+00:00"
+  },
+  {
+    "tag": "00A5",
+    "bron": "Godement, Théorie des faisceaux II §2.9 / Hartshorne AG II Ex 1.19 (j_! extension by zero abelian)",
+    "tijd": "2026-11-05T13:45:59.111980+00:00"
+  },
+  {
+    "tag": "00A6",
+    "bron": "Godement, Théorie des faisceaux II §2.9 / Bourbaki (j_! extension by zero structures)",
+    "tijd": "2026-11-05T13:45:59.111980+00:00"
+  },
+  {
+    "tag": "00A7",
+    "bron": "Godement, Théorie des faisceaux II §2.9 / Hartshorne AG II Ex 1.19 (j_! extension by zero modules)",
+    "tijd": "2026-11-05T13:45:59.111980+00:00"
+  },
+  {
+    "tag": "00A9",
+    "bron": "Godement, Théorie des faisceaux II §2.9 / Hartshorne AG II Ex 1.19 (equivalence open subcategory abelian)",
+    "tijd": "2026-11-05T13:45:59.111980+00:00"
+  },
+  {
+    "tag": "00AA",
+    "bron": "Godement, Théorie des faisceaux II §2.9 / Bourbaki (equivalence open subcategory structures)",
+    "tijd": "2026-11-05T13:45:59.111980+00:00"
+  },
+  {
+    "tag": "00AB",
+    "bron": "Godement, Théorie des faisceaux II §2.9 / Hartshorne AG II Ex 1.19 (equivalence open subcategory modules)",
+    "tijd": "2026-11-05T13:45:59.111980+00:00"
+  },
+  {
+    "tag": "01HI",
+    "bron": "Grothendieck EGA I §0.4.1 / Hartshorne AG II p. 72 (restriction of locally ringed space map to opens)",
+    "tijd": "2026-11-05T13:59:04.359818+00:00"
+  },
+  {
+    "tag": "01I0",
+    "bron": "Grothendieck EGA I §1.1.5 / Hartshorne AG II Prop 2.2 (standard affine open D(f) stalk characterization)",
+    "tijd": "2026-11-05T13:59:04.373533+00:00"
+  },
+  {
+    "tag": "01J9",
+    "bron": "Grothendieck EGA I §2.4.2 / Hartshorne AG II Ex 2.7 (points as equivalence classes of field spectra)",
+    "tijd": "2026-11-05T13:59:04.386732+00:00"
+  },
+  {
+    "tag": "01L3",
+    "bron": "Mac Lane CWM III.4 / Grothendieck EGA I §3.3.1 (monomorphism iff diagonal is isomorphism)",
+    "tijd": "2026-11-05T13:59:04.399795+00:00"
+  },
+  {
+    "tag": "02YC",
+    "bron": "Mac Lane CWM III.4 / EGA I §3.3.1 (base change of monomorphism is monomorphism)",
+    "tijd": "2026-11-05T13:59:04.413350+00:00"
+  },
+  {
+    "tag": "0022",
+    "bron": "Mac Lane CWM III.4 (fibre product of presheaves computed pointwise)",
+    "tijd": "2026-11-05T13:59:04.425957+00:00"
+  },
+  {
+    "tag": "03KC",
+    "bron": "Mac Lane CWM III.2 / EGA 0_I §1.2 (representable over representable is representable)",
+    "tijd": "2026-11-05T13:59:04.439613+00:00"
+  },
+  {
+    "tag": "04AR",
+    "bron": "Mac Lane CWM IX.3 (connected colimits under X coincide with ambient colimits)",
+    "tijd": "2026-11-05T13:59:04.452302+00:00"
+  },
+  {
+    "tag": "002R",
+    "bron": "Mac Lane CWM IX.1 (limits over initial subcategories)",
+    "tijd": "2026-11-05T13:59:04.466481+00:00"
+  },
+  {
+    "tag": "04AV",
+    "bron": "Mac Lane CWM V.2 (connected finite colimits from pushouts and coequalizers)",
+    "tijd": "2026-11-05T13:59:04.479016+00:00"
+  },
+  {
+    "tag": "04AW",
+    "bron": "Mac Lane CWM V.2 (almost finite colimits from binary coproducts and pushouts/coequalizers)",
+    "tijd": "2026-11-05T13:59:04.492717+00:00"
+  },
+  {
+    "tag": "002Q",
+    "bron": "Mac Lane CWM V.2 (finite colimits from initial object and pushouts)",
+    "tijd": "2026-11-05T13:59:04.506804+00:00"
+  },
+  {
+    "tag": "02XD",
+    "bron": "Mac Lane CWM XII / SGA 1 VI §1 (transitivity of 2-fibre products of categories)",
+    "tijd": "2026-11-05T13:59:04.519461+00:00"
+  },
+  {
+    "tag": "04Z1",
+    "bron": "SGA 1 VI §1 (fibre product after map as 2-fibre product)",
+    "tijd": "2026-11-05T13:59:04.532359+00:00"
+  },
+  {
+    "tag": "02XI",
+    "bron": "SGA 1 VI §1 / Vistoli §3.1 (fibre category of 2-fibre product over C)",
+    "tijd": "2026-11-05T13:59:04.545985+00:00"
+  },
+  {
+    "tag": "09WU",
+    "bron": "SGA 1 VI §1 / Vistoli §3.1 (composition of strongly cartesian morphisms)",
+    "tijd": "2026-11-05T13:59:04.558703+00:00"
+  },
+  {
+    "tag": "04Z6",
+    "bron": "Olsson §3.1 / SGA 1 VI §1 (relative inertia category as 2-fibre product)",
+    "tijd": "2026-11-05T13:59:04.571864+00:00"
+  },
+  {
+    "tag": "0047",
+    "bron": "SGA 1 VI §1 / Vistoli §3.1 (categories fibred in sets stable under 2-fibre product)",
+    "tijd": "2026-11-05T13:59:04.584620+00:00"
+  },
+  {
+    "tag": "04SB",
+    "bron": "SGA 1 VI §1 / Vistoli §3.1 (categories fibred in setoids stable under 2-fibre product)",
+    "tijd": "2026-11-05T13:59:04.597758+00:00"
+  },
+  {
+    "tag": "02Y5",
+    "bron": "SGA 1 VI §1 / Vistoli §3.1 (explicit description of fibre category over C/U)",
+    "tijd": "2026-11-05T13:59:04.610901+00:00"
+  },
+  {
+    "tag": "010W",
+    "bron": "Mac Lane CWM II.4 / Weibel HA 1.4 (chain homotopies respect composition)",
+    "tijd": "2026-11-05T14:15:07.028317+00:00"
+  },
+  {
+    "tag": "010Y",
+    "bron": "Weibel HA 1.2.3 / Mac Lane CWM VIII.3 (chain complexes over abelian category form abelian category)",
+    "tijd": "2026-11-05T14:15:07.038325+00:00"
+  },
+  {
+    "tag": "0110",
+    "bron": "Weibel HA 1.4.4 / Mac Lane CWM VIII.3 (homotopic maps induce same map on homology)",
+    "tijd": "2026-11-05T14:15:07.048576+00:00"
+  },
+  {
+    "tag": "0112",
+    "bron": "Weibel HA 1.4 / Mac Lane CWM VIII.3 (cochain homotopies respect composition)",
+    "tijd": "2026-11-05T14:15:07.057634+00:00"
+  },
+  {
+    "tag": "0114",
+    "bron": "Weibel HA 1.2.3 / Mac Lane CWM VIII.3 (cochain complexes over abelian category form abelian category)",
+    "tijd": "2026-11-05T14:15:07.068694+00:00"
+  },
+  {
+    "tag": "0116",
+    "bron": "Weibel HA 1.4.4 / Mac Lane CWM VIII.3 (homotopic cochain maps induce same map on cohomology)",
+    "tijd": "2026-11-05T14:15:07.078365+00:00"
+  },
+  {
+    "tag": "011C",
+    "bron": "Weibel HA 1.4 / Mac Lane CWM VIII.3 (homotopies as morphisms to shifted chain complex)",
+    "tijd": "2026-11-05T14:15:07.087447+00:00"
+  },
+  {
+    "tag": "011E",
+    "bron": "Weibel HA 1.3 / Mac Lane CWM VIII.4 (boundary map for termwise split ses of chain complexes)",
+    "tijd": "2026-11-05T14:15:07.097966+00:00"
+  },
+  {
+    "tag": "011F",
+    "bron": "Weibel HA 1.4 / Mac Lane CWM VIII.4 (splittings of chain ses induce homotopic boundary maps)",
+    "tijd": "2026-11-05T14:15:07.108533+00:00"
+  },
+  {
+    "tag": "011I",
+    "bron": "Weibel HA 1.4 / Mac Lane CWM VIII.3 (homotopies as morphisms to shifted cochain complex)",
+    "tijd": "2026-11-05T14:15:07.118068+00:00"
+  },
+  {
+    "tag": "011K",
+    "bron": "Weibel HA 1.3 / Mac Lane CWM VIII.4 (boundary map for termwise split ses of cochain complexes)",
+    "tijd": "2026-11-05T14:15:07.127836+00:00"
+  },
+  {
+    "tag": "08N7",
+    "bron": "Weibel HA 1.3.2 / Mac Lane CWM VIII.2 (naturality of the connecting homomorphism in the snake lemma)",
+    "tijd": "2026-11-05T14:15:07.136974+00:00"
+  },
+  {
+    "tag": "010L",
+    "bron": "Weibel HA 3.4 / Mac Lane CWM XII.1 (Baer sum group structure on Ext^1)",
+    "tijd": "2026-11-05T14:15:07.147740+00:00"
+  },
+  {
+    "tag": "05E2",
+    "bron": "Weibel HA 3.4 / Mac Lane CWM XII.1-2 (six-term exact sequence for Ext via pushout and pullback)",
+    "tijd": "2026-11-05T14:15:07.157444+00:00"
+  },
+  {
+    "tag": "010O",
+    "bron": "Weibel HA 3.4 (exact functor induces homomorphism on Ext groups)",
+    "tijd": "2026-11-05T14:15:07.168565+00:00"
+  },
+  {
+    "tag": "0FCH",
+    "bron": "Atiyah-MacDonald Prop 6.3 / Weibel HA 1.2 (Artinian property in short exact sequences)",
+    "tijd": "2026-11-05T14:15:07.178185+00:00"
+  },
+  {
+    "tag": "0FCI",
+    "bron": "Atiyah-MacDonald Prop 6.3 / Weibel HA 1.2 (Noetherian property in short exact sequences)",
+    "tijd": "2026-11-05T14:15:07.188276+00:00"
+  },
+  {
+    "tag": "02MQ",
+    "bron": "Weibel HA 1.2 / Gabriel II.1 (kernel of exact functor is Serre subcategory)",
+    "tijd": "2026-11-05T14:15:07.198557+00:00"
+  },
+  {
+    "tag": "02MV",
+    "bron": "Weibel HA 1.2 / Weibel K-book II.1 (exact functor induces morphism of K0 groups)",
+    "tijd": "2026-11-05T14:15:07.208694+00:00"
+  },
+  {
+    "tag": "0136",
+    "bron": "Weibel HA 2.2 / Mac Lane CWM XII.1 (characterizations of injective objects)",
+    "tijd": "2026-11-05T14:15:07.218317+00:00"
+  },
+  {
+    "tag": "0137",
+    "bron": "Weibel HA 2.2 / Mac Lane CWM VIII.3 (product of injectives is injective)",
+    "tijd": "2026-11-05T14:15:07.229209+00:00"
+  },
+  {
+    "tag": "013C",
+    "bron": "Weibel HA 2.2 / Mac Lane CWM XII.1 (characterizations of projective objects)",
+    "tijd": "2026-11-05T14:15:07.239804+00:00"
+  },
+  {
+    "tag": "013D",
+    "bron": "Weibel HA 2.2 / Mac Lane CWM VIII.3 (coproduct of projectives is projective)",
+    "tijd": "2026-11-05T14:15:07.250654+00:00"
+  },
+  {
+    "tag": "060K",
+    "bron": "Weibel HA 1.2 / Mac Lane CWM VIII.3 (product of chain complexes of abelian groups is exact)",
+    "tijd": "2026-11-05T14:15:07.261251+00:00"
+  },
+  {
+    "tag": "011R",
+    "bron": "Weibel HA 5.9 / Mac Lane CWM XI.5 (derived exact couple in abelian category)",
+    "tijd": "2026-11-05T14:15:07.271001+00:00"
+  },
+  {
+    "tag": "011T",
+    "bron": "Weibel HA 5.9 / Mac Lane CWM XI.5 (spectral sequence associated to an exact couple)",
+    "tijd": "2026-11-05T14:15:07.281768+00:00"
+  },
+  {
+    "tag": "011W",
+    "bron": "Weibel HA 1.2 / Mac Lane CWM VIII.3 (category of differential objects is abelian)",
+    "tijd": "2026-11-05T14:15:07.291759+00:00"
+  },
+  {
+    "tag": "01AN",
+    "bron": "EGA I §0.5.1 / Hartshorne AG II §5 (sections generate module sheaf iff generate stalks)",
+    "tijd": "2026-11-05T14:25:13.969898+00:00"
+  },
+  {
+    "tag": "01AO",
+    "bron": "EGA I §0.5.1 / Hartshorne AG II §5 (tensor product of globally generated sheaves is globally generated)",
+    "tijd": "2026-11-05T14:25:13.980637+00:00"
+  },
+  {
+    "tag": "01BF",
+    "bron": "EGA I §0.5.1 / Hartshorne AG II Prop 5.1 (direct sum of quasi-coherent sheaves is quasi-coherent)",
+    "tijd": "2026-11-05T14:25:13.989780+00:00"
+  },
+  {
+    "tag": "01BZ",
+    "bron": "Serre FAC §11 / Hartshorne AG II §5 (coherence when structure sheaf is coherent)",
+    "tijd": "2026-11-05T14:25:14.001816+00:00"
+  },
+  {
+    "tag": "01C7",
+    "bron": "EGA I §0.5.4 / Hartshorne AG II §5 (locally free implies quasi-coherent)",
+    "tijd": "2026-11-05T14:25:14.010867+00:00"
+  },
+  {
+    "tag": "01C8",
+    "bron": "EGA I §0.5.4 / Hartshorne AG II §5 (pullback of locally free sheaf is locally free)",
+    "tijd": "2026-11-05T14:25:14.022030+00:00"
+  },
+  {
+    "tag": "01CD",
+    "bron": "EGA I §0.5.3 / Hartshorne AG II Prop 5.8 (pullback commutes with tensor product)",
+    "tijd": "2026-11-05T14:25:14.030599+00:00"
+  },
+  {
+    "tag": "01CG",
+    "bron": "Bourbaki Algèbre III §5 / EGA I §0.5.5 (local description of exterior and symmetric algebras)",
+    "tijd": "2026-11-05T14:25:14.041186+00:00"
+  },
+  {
+    "tag": "01CI",
+    "bron": "Bourbaki Algèbre III §5 / EGA I §0.5.5 (pullback commutes with tensor, symmetric and exterior algebras)",
+    "tijd": "2026-11-05T14:25:14.051693+00:00"
+  },
+  {
+    "tag": "01CN",
+    "bron": "EGA I §0.5.2 / Bourbaki Algèbre II §4 (tensor-hom adjunction for sheaf Hom)",
+    "tijd": "2026-11-05T14:25:14.061978+00:00"
+  },
+  {
+    "tag": "01D0",
+    "bron": "EGA I §0.1.3 / Bourbaki Algèbre Commutative II §2 (localization of presheaf/sheaf of rings)",
+    "tijd": "2026-11-05T14:25:14.070571+00:00"
+  },
+  {
+    "tag": "01D1",
+    "bron": "EGA I §0.1.3 / Bourbaki Algèbre Commutative II §2 (localization of presheaves and sheaves of modules)",
+    "tijd": "2026-11-05T14:25:14.082171+00:00"
+  },
+  {
+    "tag": "05NA",
+    "bron": "EGA I §0.5.1 / Hartshorne AG II §5 (tensor product of sheaves is sheafification of presheaf tensor product)",
+    "tijd": "2026-11-05T14:25:14.091827+00:00"
+  },
+  {
+    "tag": "08TM",
+    "bron": "Illusie Complexe Cotangent I §1.2 / EGA $0_{\text{IV}}$ §20 (pullback of naive cotangent complex)",
+    "tijd": "2026-11-05T14:25:14.101895+00:00"
+  },
+  {
+    "tag": "0A6F",
+    "bron": "Bourbaki Algèbre II §4 / EGA I §0.5.2 (restriction and sheaf Hom adjunction)",
+    "tijd": "2026-11-05T14:25:14.111914+00:00"
+  },
+  {
+    "tag": "0FKP",
+    "bron": "EGA $0_{\text{IV}}$ §20 / Hartshorne AG II §8 (pullback of algebraic de Rham complex)",
+    "tijd": "2026-11-05T14:25:14.122035+00:00"
+  },
+  {
+    "tag": "013J",
+    "bron": "Weibel HA 10.4 / Verdier (injective resolution and bounded below truncations)",
+    "tijd": "2026-11-05T14:25:14.132065+00:00"
+  },
+  {
+    "tag": "0151",
+    "bron": "Weibel HA 1.3 / Verdier §1 (composition of delta-functors with exact functors)",
+    "tijd": "2026-11-05T14:25:14.142188+00:00"
+  },
+  {
+    "tag": "05QX",
+    "bron": "Verdier Des Catégories Dérivées II.1 / Neeman Triangulated Categories §1.5 (characterization of triangulated subcategories)",
+    "tijd": "2026-11-05T14:25:14.152224+00:00"
+  },
+  {
+    "tag": "05QZ",
+    "bron": "Weibel HA 10.1 / Verdier II.1 (composition of homological functors with exact functors)",
+    "tijd": "2026-11-05T14:25:14.162825+00:00"
+  },
+  {
+    "tag": "05SU",
+    "bron": "Verdier Des Catégories Dérivées §2 / Weibel HA 10.5 (derived functors commute with shift)",
+    "tijd": "2026-11-05T14:25:14.171999+00:00"
+  },
+  {
+    "tag": "05SY",
+    "bron": "Verdier Des Catégories Dérivées §2 / Weibel HA 10.5 (shift compatibility of computing objects)",
+    "tijd": "2026-11-05T14:25:14.182056+00:00"
+  },
+  {
+    "tag": "0FCQ",
+    "bron": "Neeman Triangulated Categories §4.5 / Thomason-Trobaugh (exact functor induces map on K0)",
+    "tijd": "2026-11-05T14:25:14.192653+00:00"
+  },
+  {
+    "tag": "0FCR",
+    "bron": "Neeman Triangulated Categories §4.5 / Verdier (homological functor induces map on K0)",
+    "tijd": "2026-11-05T14:25:14.203176+00:00"
+  },
+  {
+    "tag": "0FCT",
+    "bron": "Thomason-Trobaugh §1.4 / Neeman (biregular functor induces bilinear map on K0)",
+    "tijd": "2026-11-05T14:25:14.213255+00:00"
+  },
+  {
+    "tag": "00VV",
+    "bron": "SGA 4 I §1 / Mac Lane CWM III (combinatorial and tautological equivalences of coverings)",
+    "tijd": "2026-11-05T14:33:21.412380+00:00"
+  },
+  {
+    "tag": "00WK",
+    "bron": "Artin Grothendieck Topologies §2 / SGA 4 II §3 (sections of sheafification via coverings)",
+    "tijd": "2026-11-05T14:33:21.424699+00:00"
+  },
+  {
+    "tag": "00WN",
+    "bron": "SGA 4 II §2 / Mac Lane-Moerdijk Sheaves in Geometry and Logic II.7 (monomorphisms and epimorphisms of sheaves)",
+    "tijd": "2026-11-05T14:33:21.435853+00:00"
+  },
+  {
+    "tag": "00YH",
+    "bron": "SGA 4 IV §6 / Mac Lane CWM IX (functoriality of stalks under point transformations)",
+    "tijd": "2026-11-05T14:33:21.447466+00:00"
+  },
+  {
+    "tag": "00ZH",
+    "bron": "Artin Grothendieck Topologies §1 / SGA 4 II §2 (properties of the L presheaf construction)",
+    "tijd": "2026-11-05T14:33:21.458605+00:00"
+  },
+  {
+    "tag": "0G1K",
+    "bron": "SGA 4 II §2 (separated presheaf condition under covering morphisms)",
+    "tijd": "2026-11-05T14:33:21.470274+00:00"
+  },
+  {
+    "tag": "0GMP",
+    "bron": "SGA 4 VI §1 / Mac Lane-Moerdijk III (sheaf surjections transmit quasi-compactness)",
+    "tijd": "2026-11-05T14:33:21.481484+00:00"
+  },
+  {
+    "tag": "0GMQ",
+    "bron": "SGA 4 VI §1 (finite coproducts of quasi-compact sheaves are quasi-compact)",
+    "tijd": "2026-11-05T14:33:21.493565+00:00"
+  },
+  {
+    "tag": "02H2",
+    "bron": "EGA $0_{\text{IV}}$ §19.3 / Hartshorne AG II (base change of formally smooth morphism is formally smooth)",
+    "tijd": "2026-11-05T14:33:21.504900+00:00"
+  },
+  {
+    "tag": "02HB",
+    "bron": "EGA $0_{\text{IV}}$ §19.3 (base change of formally unramified morphism is formally unramified)",
+    "tijd": "2026-11-05T14:33:21.516141+00:00"
+  },
+  {
+    "tag": "02HH",
+    "bron": "EGA $0_{\text{IV}}$ §19.10 (formally etale iff formally smooth and formally unramified)",
+    "tijd": "2026-11-05T14:33:21.527251+00:00"
+  },
+  {
+    "tag": "02HJ",
+    "bron": "EGA $0_{\text{IV}}$ §19.10 (base change of formally etale morphism is formally etale)",
+    "tijd": "2026-11-05T14:33:21.538839+00:00"
+  },
+  {
+    "tag": "0391",
+    "bron": "EGA $\text{IV}_2$ §6.8 / Grothendieck (normal morphism characterization via flat fibres)",
+    "tijd": "2026-11-05T14:33:21.550376+00:00"
+  },
+  {
+    "tag": "045S",
+    "bron": "EGA $\text{IV}_2$ §6.3 / Grothendieck (Cohen-Macaulay morphism characterization via flat fibres)",
+    "tijd": "2026-11-05T14:33:21.561982+00:00"
+  },
+  {
+    "tag": "069I",
+    "bron": "Berthelot-Grothendieck-Illusie SGA 6 VIII / EGA $\text{IV}_4$ §19 (flat base change of lci morphism)",
+    "tijd": "2026-11-05T14:33:21.573269+00:00"
+  },
+  {
+    "tag": "09ZU",
+    "bron": "EGA I §4.1 / Grothendieck (base change of thickenings of schemes)",
+    "tijd": "2026-11-05T14:33:21.584390+00:00"
+  },
+  {
+    "tag": "01SI",
+    "bron": "EGA I §1.3 / Hartshorne AG II Ex 2.7 (morphisms from Artinian schemes are affine)",
+    "tijd": "2026-11-05T14:33:21.595013+00:00"
+  },
+  {
+    "tag": "01SX",
+    "bron": "EGA I §0.1.4 / Hartshorne AG II §3 (local properties of ring maps)",
+    "tijd": "2026-11-05T14:33:21.607728+00:00"
+  },
+  {
+    "tag": "01SY",
+    "bron": "EGA I §0.1.4 / Hartshorne AG II §3 (stability under base change of ring map properties)",
+    "tijd": "2026-11-05T14:33:21.618939+00:00"
+  },
+  {
+    "tag": "01TW",
+    "bron": "EGA I §6.3 / Hartshorne AG II §3 (finite presentation implies finite type)",
+    "tijd": "2026-11-05T14:33:21.629575+00:00"
+  },
+  {
+    "tag": "01TY",
+    "bron": "EGA I §6.3 / Hartshorne AG II §3 (schemes of finite presentation over qcqs schemes are qcqs)",
+    "tijd": "2026-11-05T14:33:21.642209+00:00"
+  },
+  {
+    "tag": "01UR",
+    "bron": "EGA $0_{\text{IV}}$ §20 / Hartshorne AG II §8 (universal derivation represents derivations)",
+    "tijd": "2026-11-05T14:33:21.654416+00:00"
+  },
+  {
+    "tag": "01VX",
+    "bron": "EGA II §5.3 / Hartshorne AG II §7 (quasi-projective morphisms are separated of finite type)",
+    "tijd": "2026-11-05T14:33:21.665636+00:00"
+  },
+  {
+    "tag": "01VY",
+    "bron": "EGA II §5.3 / Hartshorne AG II §7 (H-quasi-projective implies quasi-projective)",
+    "tijd": "2026-11-05T14:33:21.677897+00:00"
+  },
+  {
+    "tag": "01W2",
+    "bron": "EGA II §5.4 / Hartshorne AG II §4 (properness is local on the base)",
+    "tijd": "2026-11-05T14:33:21.689748+00:00"
+  },
+  {
+    "tag": "02KD",
+    "bron": "EGA II §6.1 / Hartshorne AG II §5 (base change of finite locally free morphism)",
+    "tijd": "2026-11-05T14:33:21.702337+00:00"
+  },
+  {
+    "tag": "03J9",
+    "bron": "EGA I §4.2 / Grothendieck (immersions have universally bounded fibres)",
+    "tijd": "2026-11-05T14:33:21.714425+00:00"
+  },
+  {
+    "tag": "0472",
+    "bron": "EGA I §3.5 / Grothendieck (base change of universally injective morphism)",
+    "tijd": "2026-11-05T14:33:21.725508+00:00"
+  },
+  {
+    "tag": "054M",
+    "bron": "EGA I §4.5 / Hartshorne AG II §2 (canonical reduction is universal homeomorphism)",
+    "tijd": "2026-11-05T14:33:21.736148+00:00"
+  },
+  {
+    "tag": "0G42",
+    "bron": "Matsumura CRT §14 / EGA $\text{IV}_2$ §5.6 (universally catenary check on irreducible components)",
+    "tijd": "2026-11-05T14:33:21.747814+00:00"
+  },
+  {
+    "tag": "03A8",
+    "bron": "Mac Lane CWM III.2 / SGA 4 I §1 (Yoneda and free abelian presheaf adjunction)",
+    "tijd": "2026-11-05T14:45:24.728294+00:00"
+  },
+  {
+    "tag": "03A9",
+    "bron": "Mac Lane CWM III / Bourbaki Algèbre II §1 (free abelian groups commute with coproducts)",
+    "tijd": "2026-11-05T14:45:24.742430+00:00"
+  },
+  {
+    "tag": "03AB",
+    "bron": "SGA 4 II §2 / Mac Lane-Moerdijk Sheaves II.7 (sheafification adjunction and Yoneda for sheaves)",
+    "tijd": "2026-11-05T14:45:24.755014+00:00"
+  },
+  {
+    "tag": "03AC",
+    "bron": "SGA 4 II §2 / Artin Grothendieck Topologies §2 (Yoneda characterization of sheafification)",
+    "tijd": "2026-11-05T14:45:24.769156+00:00"
+  },
+  {
+    "tag": "03CY",
+    "bron": "SGA 4 II §2 / Godement Théorie des faisceaux I §1.6 (sheafification of module structures)",
+    "tijd": "2026-11-05T14:45:24.781767+00:00"
+  },
+  {
+    "tag": "03EO",
+    "bron": "EGA $0_{\\text{I}}$ §3.6 / Bourbaki Algèbre II §4 (tensor-hom adjunction for modules on ringed sites)",
+    "tijd": "2026-11-05T14:45:24.794416+00:00"
+  },
+  {
+    "tag": "03ET",
+    "bron": "SGA 4 II §2 / Bourbaki AC I §2 (exactness of sheafification implies preservation of flatness)",
+    "tijd": "2026-11-05T14:45:24.807322+00:00"
+  },
+  {
+    "tag": "03L6",
+    "bron": "EGA I §0.5.1 / Bourbaki Algèbre II §3 (stability of module properties under tensor products)",
+    "tijd": "2026-11-05T14:45:24.821896+00:00"
+  },
+  {
+    "tag": "040B",
+    "bron": "SGA 4 V §3 / Bourbaki Algèbre II §5 (classification of invertible modules by $H^1$)",
+    "tijd": "2026-11-05T14:45:24.834586+00:00"
+  },
+  {
+    "tag": "05D8",
+    "bron": "SGA 4 IV §6 / Mac Lane-Moerdijk VI.7 (conservative family of points detects isomorphisms)",
+    "tijd": "2026-11-05T14:45:24.848186+00:00"
+  },
+  {
+    "tag": "082T",
+    "bron": "Bourbaki AC I §2 / EGA I §0.5.2 (kernel of surjection onto finitely presented module is of finite type)",
+    "tijd": "2026-11-05T14:45:24.860548+00:00"
+  },
+  {
+    "tag": "08TZ",
+    "bron": "Illusie Complexe Cotangent I §1.2 / EGA $0_{\\text{IV}}$ §20 (pullback of cotangent complex)",
+    "tijd": "2026-11-05T14:45:24.873987+00:00"
+  },
+  {
+    "tag": "0932",
+    "bron": "Bourbaki Algèbre II §4 / EGA $0_{\\text{I}}$ §3.6 (restriction and extension of scalars adjunction)",
+    "tijd": "2026-11-05T14:45:24.887586+00:00"
+  },
+  {
+    "tag": "093R",
+    "bron": "SGA 4 IV §5 / Artin Grothendieck Topologies §3 (pullback preserves constant and locally constant sheaves)",
+    "tijd": "2026-11-05T14:45:24.901815+00:00"
+  },
+  {
+    "tag": "093S",
+    "bron": "SGA 4 IX §2 / Artin §4 (local trivialization of morphisms between locally constant sheaves)",
+    "tijd": "2026-11-05T14:45:24.914962+00:00"
+  },
+  {
+    "tag": "093V",
+    "bron": "SGA 4 IX §2 / Bourbaki Algèbre II §3 (tensor product of locally constant sheaves)",
+    "tijd": "2026-11-05T14:45:24.928570+00:00"
+  },
+  {
+    "tag": "0EMC",
+    "bron": "Bourbaki AC II §2 / EGA I §0.1.3 (universal property of localized sheaves of rings)",
+    "tijd": "2026-11-05T14:45:24.942131+00:00"
+  },
+  {
+    "tag": "0EMD",
+    "bron": "Bourbaki AC II §2 / EGA I §0.1.3 (localization of module sheaves as tensor product)",
+    "tijd": "2026-11-05T14:45:24.955629+00:00"
+  },
+  {
+    "tag": "0GLY",
+    "bron": "Matsumura CRT §8 / EGA $\\text{IV}_1$ §1.5 (flat base change isomorphism for modules annihilated by an ideal)",
+    "tijd": "2026-11-05T14:45:24.969323+00:00"
+  },
+  {
+    "tag": "0GMW",
+    "bron": "SGA 4 II §2 / Godement Théorie des faisceaux I §1.6 (sheafification of tensor products via bilinear maps)",
+    "tijd": "2026-11-05T14:45:24.981593+00:00"
+  },
+  {
+    "tag": "0H98",
+    "bron": "Bourbaki AC I §2 / EGA I §0.5.2 (cokernel of map from finite type module to finitely presented module is finitely presented)",
+    "tijd": "2026-11-05T14:45:24.995683+00:00"
+  },
+  {
+    "tag": "03AI",
+    "bron": "Giraud Cohomologie non abélienne III §1 / SGA 4 IV §2 (triviality of torsors with a global section)",
+    "tijd": "2026-11-05T14:45:25.009863+00:00"
+  },
+  {
+    "tag": "09J8",
+    "bron": "SGA 6 I §2 / Illusie (strictly perfect complexes stable under tensor products)",
+    "tijd": "2026-11-05T14:45:25.023036+00:00"
+  },
+  {
+    "tag": "09JA",
+    "bron": "SGA 6 I §5 / Weibel HA 10.7 (tor-amplitude of derived tensor products)",
+    "tijd": "2026-11-05T14:45:25.036699+00:00"
+  },
+  {
+    "tag": "0A90",
+    "bron": "Weibel HA 2.7 / Mac Lane CWM V.2 (tensor-hom adjunction for complexes of sheaves)",
+    "tijd": "2026-11-05T14:45:25.050326+00:00"
+  },
+  {
+    "tag": "0A92",
+    "bron": "Weibel HA 2.7 / Mac Lane CWM VII (evaluation and internal hom morphism for complexes)",
+    "tijd": "2026-11-05T14:45:25.063982+00:00"
+  },
+  {
+    "tag": "0A93",
+    "bron": "Weibel HA 2.7 / Mac Lane CWM VII (unit of tensor-hom adjunction for complexes)",
+    "tijd": "2026-11-05T14:45:25.078065+00:00"
+  },
+  {
+    "tag": "0BYT",
+    "bron": "Weibel HA 2.7 / Mac Lane CWM VII (associativity and evaluation for internal hom complexes)",
+    "tijd": "2026-11-05T14:45:25.091149+00:00"
+  },
+  {
+    "tag": "0FPM",
+    "bron": "SGA 4 XVII §5 / Deligne (symmetry of relative cup product in derived category)",
+    "tijd": "2026-11-05T14:45:25.104872+00:00"
+  },
+  {
+    "tag": "0FPT",
+    "bron": "Mac Lane CWM VII / Verdier Des Catégories Dérivées §2 (symmetric monoidal structure on derived categories)",
+    "tijd": "2026-11-05T14:45:25.118575+00:00"
+  },
+  {
+    "tag": "0H0R",
+    "bron": "SGA 4 IV §5 / Lurie SAG §1.3 (equivalence of quasi-coherent derived category on site with final object)",
+    "tijd": "2026-11-05T14:45:25.131829+00:00"
+  },
+  {
+    "tag": "0H9A",
+    "bron": "SGA 4 XVII §5 / Berthelot-Grothendieck-Illusie SGA 6 IV §3 (compatibility of cup product with base change)",
+    "tijd": "2026-11-05T14:45:25.143468+00:00"
+  },
+  {
+    "tag": "01FJ",
+    "bron": "Godement Topologie algébrique II §5.2 / EGA $0_{\\text{III}}$ §11.4 (isomorphism between ordered and alternating Čech complexes)",
+    "tijd": "2026-11-05T14:52:31.504513+00:00"
+  },
+  {
+    "tag": "01FK",
+    "bron": "Godement Topologie algébrique II §5.2 / EGA $0_{\\text{III}}$ §11.4 (projection from alternating to ordered Čech complexes)",
+    "tijd": "2026-11-05T14:52:31.516587+00:00"
+  },
+  {
+    "tag": "02FP",
+    "bron": "Giraud Cohomologie non abélienne III §1 / SGA 4 IV §2 (triviality of torsors with a global section)",
+    "tijd": "2026-11-05T14:52:31.526724+00:00"
+  },
+  {
+    "tag": "09J2",
+    "bron": "SGA 6 I §2 / Illusie (strictly perfect complexes stable under tensor products)",
+    "tijd": "2026-11-05T14:52:31.536827+00:00"
+  },
+  {
+    "tag": "09J4",
+    "bron": "SGA 6 I §5 / Weibel HA 10.7 (tor-amplitude of derived tensor products)",
+    "tijd": "2026-11-05T14:52:31.547634+00:00"
+  },
+  {
+    "tag": "09V7",
+    "bron": "SGA 6 I §2 / Illusie (complex of pseudo-coherent modules is pseudo-coherent)",
+    "tijd": "2026-11-05T14:52:31.558244+00:00"
+  },
+  {
+    "tag": "09V8",
+    "bron": "SGA 6 I §2 / Illusie (complex with pseudo-coherent cohomology is pseudo-coherent)",
+    "tijd": "2026-11-05T14:52:31.568302+00:00"
+  },
+  {
+    "tag": "0A8M",
+    "bron": "Weibel HA 2.7 / Mac Lane CWM V.2 (tensor-hom adjunction for complexes of sheaves)",
+    "tijd": "2026-11-05T14:52:31.578881+00:00"
+  },
+  {
+    "tag": "0A8P",
+    "bron": "Weibel HA 2.7 / Mac Lane CWM VII (evaluation and internal hom morphism for complexes)",
+    "tijd": "2026-11-05T14:52:31.589493+00:00"
+  },
+  {
+    "tag": "0A8Q",
+    "bron": "Weibel HA 2.7 / Mac Lane CWM VII (unit of tensor-hom adjunction for complexes)",
+    "tijd": "2026-11-05T14:52:31.599575+00:00"
+  },
+  {
+    "tag": "0BYR",
+    "bron": "Weibel HA 2.7 / Mac Lane CWM VII (associativity and evaluation for internal hom complexes)",
+    "tijd": "2026-11-05T14:52:31.609219+00:00"
+  },
+  {
+    "tag": "0FP5",
+    "bron": "SGA 4 XVII §5 / Deligne (symmetry of relative cup product in derived category)",
+    "tijd": "2026-11-05T14:52:31.620860+00:00"
+  },
+  {
+    "tag": "0FPB",
+    "bron": "Mac Lane CWM VII / Verdier Des Catégories Dérivées §2 (symmetric monoidal structure on derived categories)",
+    "tijd": "2026-11-05T14:52:31.631529+00:00"
+  },
+  {
+    "tag": "0G77",
+    "bron": "Grothendieck SGA 2 I §2 / Hartshorne LC §1 (compatibility of cup product with support)",
+    "tijd": "2026-11-05T14:52:31.642576+00:00"
+  },
+  {
+    "tag": "0GT3",
+    "bron": "EGA I §0.5.4 / Bourbaki AC II §5 (characterization of invertible ideal sheaves)",
+    "tijd": "2026-11-05T14:52:31.652768+00:00"
+  },
+  {
+    "tag": "0GT5",
+    "bron": "Bourbaki AC II §2 / EGA $0_{\\text{I}}$ §5.1 (characterization of torsion freeness for ideal sheaves)",
+    "tijd": "2026-11-05T14:52:31.663360+00:00"
+  },
+  {
+    "tag": "0GT6",
+    "bron": "Berthelot-Ogus Notes on Crystalline Cohomology §8 / Illusie (stalks of eta functor on complexes)",
+    "tijd": "2026-11-05T14:52:31.674140+00:00"
+  },
+  {
+    "tag": "0H99",
+    "bron": "SGA 4 XVII §5 / Berthelot-Grothendieck-Illusie SGA 6 IV §3 (compatibility of cup product with base change)",
+    "tijd": "2026-11-05T14:52:31.684780+00:00"
+  },
+  {
+    "tag": "05II",
+    "bron": "Bourbaki AC IV §1 / EGA $\\text{IV}_2$ §3.3 (weak associated primes of tensor products)",
+    "tijd": "2026-11-05T14:52:31.696479+00:00"
+  },
+  {
+    "tag": "05J6",
+    "bron": "EGA $\\text{IV}_3$ §11.1 / Raynaud-Gruson §3 (universally pure along fiber)",
+    "tijd": "2026-11-05T14:52:31.706601+00:00"
+  },
+  {
+    "tag": "0EU0",
+    "bron": "Voevodsky / Huber-Jannsen §1 / EGA $\\text{IV}_2$ §2 (coverings on the big h site)",
+    "tijd": "2026-11-05T14:52:31.716776+00:00"
+  },
+  {
+    "tag": "0EXB",
+    "bron": "EGA $\\text{IV}_3$ §8.5 / Gabber-Ramero Almost Ring Theory §3.4 (Frobenius colimit of vector bundles)",
+    "tijd": "2026-11-05T14:52:31.726937+00:00"
+  },
+  {
+    "tag": "0F3U",
+    "bron": "EGA I §5.3 / Hartshorne AG II §4 (separatedness check via open cover)",
+    "tijd": "2026-11-05T14:52:31.738465+00:00"
+  },
+  {
+    "tag": "0F8M",
+    "bron": "Berthelot-Ogus Notes on Crystalline Cohomology §8 / Illusie (quasi-coherence of eta functor on schemes)",
+    "tijd": "2026-11-05T14:52:31.748513+00:00"
+  },
+  {
+    "tag": "0GTV",
+    "bron": "Berthelot-Ogus Notes on Crystalline Cohomology §8 / Bhatt-Morrow-Scholze §4 (derived eta functor preserves quasi-coherence)",
+    "tijd": "2026-11-05T14:52:31.758546+00:00"
+  },
+  {
+    "tag": "01OT",
+    "bron": "Matsumura CRT §17, §19 / EGA $0_{\\text{IV}}$ §16, §17 (local properties of rings)",
+    "tijd": "2026-11-05T14:52:31.769120+00:00"
+  },
+  {
+    "tag": "01PT",
+    "bron": "EGA II Prop 4.5.6 / Hartshorne AG II §7 (ample power of an invertible sheaf is ample)",
+    "tijd": "2026-11-05T14:52:31.779209+00:00"
+  },
+  {
+    "tag": "02IK",
+    "bron": "EGA I §6.1 / Hartshorne AG II §3 (locally closed subschemes of Noetherian schemes)",
+    "tijd": "2026-11-05T14:52:31.789526+00:00"
+  },
+  {
+    "tag": "033N",
+    "bron": "EGA $\\text{IV}_2$ §6.14 / Matsumura CRT §9 (normal locally Noetherian scheme as disjoint union of integral schemes)",
+    "tijd": "2026-11-05T14:52:31.800647+00:00"
+  },
+  {
+    "tag": "07ZN",
+    "bron": "EGA I §6.7 / EGA $\\text{IV}_1$ §1.4 (pushforward of sections annihilated by an ideal)",
+    "tijd": "2026-11-05T14:52:31.811718+00:00"
+  },
+  {
+    "tag": "01WU",
+    "bron": "EGA $\\text{IV}_4$ §21.1 / Hartshorne AG II §6 (sum of effective Cartier divisors is Cartier)",
+    "tijd": "2026-11-05T14:58:16.557607+00:00"
+  },
+  {
+    "tag": "01WW",
+    "bron": "EGA $\\text{IV}_4$ §21.1 / Hartshorne AG II §6 (additivity of pullback of effective Cartier divisors)",
+    "tijd": "2026-11-05T14:58:16.568172+00:00"
+  },
+  {
+    "tag": "01WZ",
+    "bron": "EGA $0_{\\text{I}}$ §5.1 / Bourbaki AC II §2 (characterization of regular sections of structure sheaf)",
+    "tijd": "2026-11-05T14:58:16.579200+00:00"
+  },
+  {
+    "tag": "01X0",
+    "bron": "EGA $\\text{IV}_4$ §21.1 / Hartshorne AG II Prop 6.13 (correspondence between Cartier divisors and invertible sheaves with regular section)",
+    "tijd": "2026-11-05T14:58:16.590757+00:00"
+  },
+  {
+    "tag": "01X5",
+    "bron": "EGA $\\text{IV}_4$ §20.1 / Hartshorne AG II §6 (sheaf of meromorphic functions on integral scheme)",
+    "tijd": "2026-11-05T14:58:16.601295+00:00"
+  },
+  {
+    "tag": "02ON",
+    "bron": "EGA $\\text{IV}_4$ §21.1 / Hartshorne AG II §6 (difference of effective Cartier divisors)",
+    "tijd": "2026-11-05T14:58:16.611936+00:00"
+  },
+  {
+    "tag": "02OP",
+    "bron": "EGA $\\text{IV}_4$ §21.1 / Hartshorne AG II Prop 6.13 (isomorphism of invertible sheaves for sum of Cartier divisors)",
+    "tijd": "2026-11-05T14:58:16.622976+00:00"
+  },
+  {
+    "tag": "02OR",
+    "bron": "EGA I §4.1 / Hartshorne AG II §5 (universal property of zero scheme)",
+    "tijd": "2026-11-05T14:58:16.633096+00:00"
+  },
+  {
+    "tag": "02OY",
+    "bron": "EGA $\\text{IV}_4$ §20.2 / Kleiman (pullback of meromorphic sections)",
+    "tijd": "2026-11-05T14:58:16.643677+00:00"
+  },
+  {
+    "tag": "053P",
+    "bron": "EGA I §4.1 / Hartshorne AG II §3 (pullback of locally principal closed subschemes)",
+    "tijd": "2026-11-05T14:58:16.654259+00:00"
+  },
+  {
+    "tag": "0AXR",
+    "bron": "Bourbaki AC II §2 / EGA $0_{\\text{I}}$ §5.1 (quasi-coherence of torsion subsheaf on integral scheme)",
+    "tijd": "2026-11-05T14:58:16.664343+00:00"
+  },
+  {
+    "tag": "0AXS",
+    "bron": "Bourbaki AC II §2 / EGA $0_{\\text{I}}$ §5.1 (checking torsion freeness on affine opens)",
+    "tijd": "2026-11-05T14:58:16.675379+00:00"
+  },
+  {
+    "tag": "0AXT",
+    "bron": "Bourbaki AC II §2 / EGA $0_{\\text{I}}$ §5.1 (properties of torsion subsheaf)",
+    "tijd": "2026-11-05T14:58:16.686483+00:00"
+  },
+  {
+    "tag": "0AXU",
+    "bron": "Matsumura CRT §8 / Bourbaki AC I §2 (flat modules are torsion free over integral schemes)",
+    "tijd": "2026-11-05T14:58:16.697561+00:00"
+  },
+  {
+    "tag": "0AXV",
+    "bron": "Bourbaki AC I §2 / EGA $\\text{IV}_2$ §2.1 (flat pullback preserves torsion freeness)",
+    "tijd": "2026-11-05T14:58:16.708146+00:00"
+  },
+  {
+    "tag": "0AXW",
+    "bron": "Bourbaki AC II §2 / EGA $0_{\\text{I}}$ §5.1 (checking torsion freeness at stalks)",
+    "tijd": "2026-11-05T14:58:16.718749+00:00"
+  },
+  {
+    "tag": "0AXX",
+    "bron": "Bourbaki AC II §2 / EGA $0_{\\text{I}}$ §5.1 (extension of torsion free sheaves is torsion free)",
+    "tijd": "2026-11-05T14:58:16.729489+00:00"
+  },
+  {
+    "tag": "0AY0",
+    "bron": "Bourbaki AC VII §4 / EGA $0_{\\text{I}}$ §5.4 (checking reflexivity on affine opens)",
+    "tijd": "2026-11-05T14:58:16.741088+00:00"
+  },
+  {
+    "tag": "0AY2",
+    "bron": "Bourbaki AC VII §4 / Matsumura CRT §8 (reflexive modules are torsion free)",
+    "tijd": "2026-11-05T14:58:16.752217+00:00"
+  },
+  {
+    "tag": "0AY5",
+    "bron": "Serre Algèbre locale / EGA $\\text{IV}_2$ §5.8 (depth 2 characterization of reflexive modules)",
+    "tijd": "2026-11-05T14:58:16.762467+00:00"
+  },
+  {
+    "tag": "0C4U",
+    "bron": "EGA $\\text{IV}_4$ §21.1 / Hartshorne AG II §6 (pullback of Cartier divisor line bundle and section)",
+    "tijd": "2026-11-05T14:58:16.773116+00:00"
+  },
+  {
+    "tag": "0EBF",
+    "bron": "Bourbaki AC VII §4 / EGA $\\text{IV}_2$ §2.1 (flat pullback of reflexive modules is reflexive)",
+    "tijd": "2026-11-05T14:58:16.783200+00:00"
+  },
+  {
+    "tag": "0EBG",
+    "bron": "Bourbaki AC VII §4 / Matsumura CRT §8 (submodule of reflexive with torsion-free quotient is reflexive)",
+    "tijd": "2026-11-05T14:58:16.794776+00:00"
+  },
+  {
+    "tag": "0EBI",
+    "bron": "Serre Algèbre locale / EGA $\\text{IV}_2$ §5.8 (reflexive modules satisfy condition S2)",
+    "tijd": "2026-11-05T14:58:16.806294+00:00"
+  },
+  {
+    "tag": "0HAG",
+    "bron": "Bourbaki Algèbre II §7 / EGA $0_{\\text{I}}$ §5.4 (checking rank on affine opens)",
+    "tijd": "2026-11-05T14:58:16.816901+00:00"
+  },
+  {
+    "tag": "0HAI",
+    "bron": "Bourbaki Algèbre II §7 / EGA $0_{\\text{I}}$ §5.4 (additivity of rank in short exact sequences)",
+    "tijd": "2026-11-05T14:58:16.828469+00:00"
+  },
+  {
+    "tag": "01DD",
+    "bron": "Mac Lane CWM V / Weibel HA 2.3 / Cartan-Eilenberg I §3 (functorial embedding into injective modules)",
+    "tijd": "2026-11-05T15:05:23.719539+00:00"
+  },
+  {
+    "tag": "0537",
+    "bron": "Bourbaki Algèbre II §7 / Atiyah-MacDonald Prop 3.1 (torsion submodule over domain and torsion-free quotient)",
+    "tijd": "2026-11-05T15:05:23.730949+00:00"
+  },
+  {
+    "tag": "05EQ",
+    "bron": "Ferrand Conducteur, descente et pincement / EGA $\\text{IV}_2$ §1.5 (flat base change of glued module categories)",
+    "tijd": "2026-11-05T15:05:23.741996+00:00"
+  },
+  {
+    "tag": "0672",
+    "bron": "EGA $\\text{IV}_1$ §1.4 / Raynaud-Gruson §1 (direct summands of relatively finitely presented modules)",
+    "tijd": "2026-11-05T15:05:23.753607+00:00"
+  },
+  {
+    "tag": "07E9",
+    "bron": "Bourbaki AC III §2 / EGA $0_{\\text{I}}$ §7.1 (continuity of ring maps in adic topologies)",
+    "tijd": "2026-11-05T15:05:23.764687+00:00"
+  },
+  {
+    "tag": "07EE",
+    "bron": "EGA $0_{\\text{IV}}$ §19.3 / Matsumura CRT §28 (increasing ideal preserves formal smoothness)",
+    "tijd": "2026-11-05T15:05:23.775932+00:00"
+  },
+  {
+    "tag": "07EF",
+    "bron": "EGA $0_{\\text{IV}}$ §19.3 / Matsumura CRT §28 (composition of formally smooth maps is formally smooth)",
+    "tijd": "2026-11-05T15:05:23.787125+00:00"
+  },
+  {
+    "tag": "07Z7",
+    "bron": "Bourbaki Algèbre III §8 / Eisenbud Commutative Algebra §20.1 (properties of ideals of minors)",
+    "tijd": "2026-11-05T15:05:23.798213+00:00"
+  },
+  {
+    "tag": "09EX",
+    "bron": "Serre Corps locaux I §4 / Bourbaki AC VI §8 (purely inseparable extension of DVR)",
+    "tijd": "2026-11-05T15:05:23.809394+00:00"
+  },
+  {
+    "tag": "0AUL",
+    "bron": "Mac Lane CWM XII.1 / Weibel HA 3.4 (isomorphism between Yoneda Ext and derived Ext)",
+    "tijd": "2026-11-05T15:05:23.820610+00:00"
+  },
+  {
+    "tag": "0AUR",
+    "bron": "Bourbaki Algèbre II §7 / Atiyah-MacDonald Prop 3.3 (torsion submodule commutes with localization)",
+    "tijd": "2026-11-05T15:05:23.832224+00:00"
+  },
+  {
+    "tag": "0AUS",
+    "bron": "Bourbaki Algèbre II §7 / Matsumura CRT §8 (extension of torsion-free modules is torsion-free)",
+    "tijd": "2026-11-05T15:05:23.843484+00:00"
+  },
+  {
+    "tag": "0AUT",
+    "bron": "Bourbaki Algèbre II §7 / Atiyah-MacDonald Prop 3.8 (checking torsion freeness at primes)",
+    "tijd": "2026-11-05T15:05:23.854092+00:00"
+  },
+  {
+    "tag": "0DCM",
+    "bron": "Artin Algebraic approximation / EGA $\\text{IV}_4$ §18.8 (characterization of absolutely integrally closed domains)",
+    "tijd": "2026-11-05T15:05:23.866593+00:00"
+  },
+  {
+    "tag": "0DCN",
+    "bron": "Artin Algebraic approximation / Raynaud Anneaux locaux henséliens (quotient and localization of absolutely integrally closed rings)",
+    "tijd": "2026-11-05T15:05:23.876840+00:00"
+  },
+  {
+    "tag": "0DCP",
+    "bron": "Bourbaki AC VI §1 / EGA $\\text{IV}_4$ §18.8 (integrally closed subring in absolutely integrally closed domain)",
+    "tijd": "2026-11-05T15:05:23.887980+00:00"
+  },
+  {
+    "tag": "0FJD",
+    "bron": "Knudsen-Mumford The projectivity of the moduli space I / Bourbaki Algèbre III §7 (determinant of filtered module)",
+    "tijd": "2026-11-05T15:05:23.899617+00:00"
+  },
+  {
+    "tag": "0FJE",
+    "bron": "Knudsen-Mumford The projectivity of the moduli space I §1 / Deligne (determinant of direct sum and sign rule)",
+    "tijd": "2026-11-05T15:05:23.910512+00:00"
+  },
+  {
+    "tag": "0G1T",
+    "bron": "Bhatt-Scholze The pro-étale topology / SGA 6 I §2 (derived vanishing modulo powers of an ideal)",
+    "tijd": "2026-11-05T15:05:23.921617+00:00"
+  },
+  {
+    "tag": "0G6G",
+    "bron": "EGA $0_{\\text{III}}$ §11.4 / Godement (extended alternating Čech complex is a complex)",
+    "tijd": "2026-11-05T15:05:23.932395+00:00"
+  },
+  {
+    "tag": "0G6H",
+    "bron": "EGA $0_{\\text{III}}$ §11.4 / Godement (extended alternating Čech complex of module via tensor product)",
+    "tijd": "2026-11-05T15:05:23.944071+00:00"
+  },
+  {
+    "tag": "0G6I",
+    "bron": "EGA $0_{\\text{III}}$ §11.4 / Godement (base change of extended alternating Čech complex)",
+    "tijd": "2026-11-05T15:05:23.955695+00:00"
+  },
+  {
+    "tag": "0GLP",
+    "bron": "Greenlees-May Derived completion / Bhatt-Scholze The pro-étale topology §4 (abelian category of derived complete modules)",
+    "tijd": "2026-11-05T15:05:23.966453+00:00"
+  },
+  {
+    "tag": "0GSR",
+    "bron": "Berthelot-Ogus Notes on Crystalline Cohomology §8 / Illusie (flat base change of eta functor)",
+    "tijd": "2026-11-05T15:05:23.977280+00:00"
+  },
+  {
+    "tag": "0H37",
+    "bron": "Bourbaki AC VI §8 / EGA $\\text{IV}_4$ §21.1 (purely inseparable extension of valuation rings)",
+    "tijd": "2026-11-05T15:05:23.988476+00:00"
+  },
+  {
+    "tag": "0H9V",
+    "bron": "Bourbaki Algèbre II §7 / EGA $0_{\\text{I}}$ §5.4 (rank unchanged by torsion kernel and cokernel)",
+    "tijd": "2026-11-05T15:05:23.999856+00:00"
+  },
+  {
+    "tag": "0H9W",
+    "bron": "Bourbaki Algèbre II §7 / EGA $0_{\\text{I}}$ §5.4 (additivity of module rank in short exact sequences)",
+    "tijd": "2026-11-05T15:05:24.010392+00:00"
+  },
+  {
+    "tag": "00DN",
+    "bron": "Bourbaki Algèbre III §7 Prop 1 / Cartan-Eilenberg (free module has free symmetric and exterior powers)",
+    "tijd": "2026-11-05T15:16:56.835091+00:00"
+  },
+  {
+    "tag": "00DO",
+    "bron": "Bourbaki Algèbre III §6 Prop 2 & §7 Prop 2 (presentation of symmetric and exterior powers)",
+    "tijd": "2026-11-05T15:16:56.850269+00:00"
+  },
+  {
+    "tag": "00DP",
+    "bron": "Bourbaki Algèbre III §6 No. 2 & §7 No. 2 (presentation of exterior and symmetric powers by generators)",
+    "tijd": "2026-11-05T15:16:56.864487+00:00"
+  },
+  {
+    "tag": "00DQ",
+    "bron": "Bourbaki Algèbre III §5 Prop 3 (tensor, symmetric, and exterior algebras commute with filtered colimits)",
+    "tijd": "2026-11-05T15:16:56.879866+00:00"
+  },
+  {
+    "tag": "00ID",
+    "bron": "Bourbaki AC VI §1 Prop 1 / Matsumura CRT §10 (value group of a valuation ring is a totally ordered group)",
+    "tijd": "2026-11-05T15:16:56.894037+00:00"
+  },
+  {
+    "tag": "00IF",
+    "bron": "Bourbaki AC VI §1 Prop 1 / Atiyah-MacDonald Ch 5 (elementary properties of valuations)",
+    "tijd": "2026-11-05T15:16:56.908178+00:00"
+  },
+  {
+    "tag": "00IG",
+    "bron": "Bourbaki AC VI §1 Thm 1 / Matsumura CRT §10 (valuation defines a valuation ring)",
+    "tijd": "2026-11-05T15:16:56.921901+00:00"
+  },
+  {
+    "tag": "00IH",
+    "bron": "Bourbaki AC VI §1 Prop 4 (one-to-one correspondence between ideals of valuation ring and value group)",
+    "tijd": "2026-11-05T15:16:56.936558+00:00"
+  },
+  {
+    "tag": "00JH",
+    "bron": "Weibel The K-book II §1 / Bass Algebraic K-Theory VII (K-theory of a product of rings)",
+    "tijd": "2026-11-05T15:16:56.950737+00:00"
+  },
+  {
+    "tag": "00JI",
+    "bron": "Weibel The K-book II §1 / Matsumura CRT §19 (K'_0 of an Artinian local ring is Z)",
+    "tijd": "2026-11-05T15:16:56.964444+00:00"
+  },
+  {
+    "tag": "00M8",
+    "bron": "Cartan-Eilenberg VI Prop 4.1 / Weibel HA 3.2.9 (flat base change for Tor modules)",
+    "tijd": "2026-11-05T15:16:56.979077+00:00"
+  },
+  {
+    "tag": "02JM",
+    "bron": "Bourbaki AC V §1 Prop 8 / Atiyah-MacDonald Prop 5.1 (permanence of integral and finite ring maps under composition)",
+    "tijd": "2026-11-05T15:16:56.992209+00:00"
+  },
+  {
+    "tag": "02LZ",
+    "bron": "Bourbaki Algèbre II §1 / Atiyah-MacDonald Prop 6.7 (modules of finite length are finitely generated)",
+    "tijd": "2026-11-05T15:16:57.006866+00:00"
+  },
+  {
+    "tag": "02M7",
+    "bron": "Matsumura CRT §6 / Bourbaki AC IV §2 (removing embedded primes commutes with localization)",
+    "tijd": "2026-11-05T15:16:57.021435+00:00"
+  },
+  {
+    "tag": "02MH",
+    "bron": "Serre Corps locaux II §1 (additivity of distance function between lattices)",
+    "tijd": "2026-11-05T15:16:57.035940+00:00"
+  },
+  {
+    "tag": "0308",
+    "bron": "Bourbaki AC V §1 Cor 1 / Atiyah-MacDonald Cor 5.4 (transitivity of integral closures)",
+    "tijd": "2026-11-05T15:16:57.049517+00:00"
+  },
+  {
+    "tag": "030P",
+    "bron": "Bourbaki Algèbre V §15 Prop 3 / Matsumura CRT §26 (subextensions of separable field extensions are separable)",
+    "tijd": "2026-11-05T15:16:57.064166+00:00"
+  },
+  {
+    "tag": "030T",
+    "bron": "EGA IV_1 §4.5 / Bourbaki AC V §2 (elementary permanence properties of geometrically reduced algebras)",
+    "tijd": "2026-11-05T15:16:57.078926+00:00"
+  },
+  {
+    "tag": "031H",
+    "bron": "EGA 0_IV §19.3.5 / Matsumura CRT §28 (composition of formally smooth ring maps is formally smooth)",
+    "tijd": "2026-11-05T15:16:57.093328+00:00"
+  },
+  {
+    "tag": "032K",
+    "bron": "Matsumura CRT §31 / EGA IV_2 §7.6 (N-1 and N-2 properties descending along finite extensions)",
+    "tijd": "2026-11-05T15:16:57.107153+00:00"
+  },
+  {
+    "tag": "034L",
+    "bron": "Bourbaki AC V §1 Prop 13 / Matsumura CRT §9 (integral closure of a ring in a normal domain is normal)",
+    "tijd": "2026-11-05T15:16:57.121773+00:00"
+  },
+  {
+    "tag": "037C",
+    "bron": "Bourbaki AC V §1 Prop 16 / Atiyah-MacDonald Prop 5.12 (localization of a normal ring is normal)",
+    "tijd": "2026-11-05T15:16:57.136275+00:00"
+  },
+  {
+    "tag": "04ED",
+    "bron": "EGA 0_IV §16.1 / Illusie CC I §1 (universal first order thickening and conormal module)",
+    "tijd": "2026-11-05T15:16:57.150354+00:00"
+  },
+  {
+    "tag": "04KN",
+    "bron": "EGA IV_1 §4.5 / Bourbaki AC V §2 (localization and polynomial algebra over geometrically reduced ring)",
+    "tijd": "2026-11-05T15:16:57.165355+00:00"
+  },
+  {
+    "tag": "04VN",
+    "bron": "EGA IV_1 §1.7 / Silver J. Algebra 1968 (characterization of epimorphisms of rings)",
+    "tijd": "2026-11-05T15:16:57.180164+00:00"
+  },
+  {
+    "tag": "04VQ",
+    "bron": "EGA IV_1 §1.7 / Mac Lane CWM I §5 (base change of epimorphism is an epimorphism)",
+    "tijd": "2026-11-05T15:16:57.194899+00:00"
+  },
+  {
+    "tag": "04VR",
+    "bron": "EGA IV_1 §1.7 / Mac Lane CWM I §5 (composition property of epimorphisms)",
+    "tijd": "2026-11-05T15:16:57.209187+00:00"
+  },
+  {
+    "tag": "05BY",
+    "bron": "Bourbaki AC IV §1 Prop 2 / Matsumura CRT §6 (associated primes of module over quotient ring)",
+    "tijd": "2026-11-05T15:16:57.223412+00:00"
+  },
+  {
+    "tag": "05CH",
+    "bron": "Bourbaki Algèbre II §7 / EGA 0_I §6.4 (universally injective maps stable under tensor product)",
+    "tijd": "2026-11-05T15:16:57.237147+00:00"
+  },
+  {
+    "tag": "05CJ",
+    "bron": "Bourbaki Algèbre II §7 / EGA 0_I §6.4 (left factor of universally injective composition is universally injective)",
+    "tijd": "2026-11-05T15:16:57.251865+00:00"
+  },
+  {
+    "tag": "05DY",
+    "bron": "EGA IV_2 §4.6 / Bourbaki AC V §2 (geometrically integral equivalent to geometrically irreducible and geometrically reduced)",
+    "tijd": "2026-11-05T15:16:57.266062+00:00"
+  },
+  {
+    "tag": "0AUF",
+    "bron": "EGA IV_1 §1.3 / Raynaud-Gruson §1 (base change of essentially of finite type/presentation ring maps)",
+    "tijd": "2026-11-05T15:16:57.280776+00:00"
+  },
+  {
+    "tag": "0C6F",
+    "bron": "Bourbaki Algèbre III §5 Prop 2 / Atiyah-MacDonald Prop 3.5 (localization of tensor, symmetric, and exterior algebras)",
+    "tijd": "2026-11-05T15:16:57.295009+00:00"
+  },
+  {
+    "tag": "0CY8",
+    "bron": "Bourbaki AC V §1 / Atiyah-MacDonald Ch 5 Ex 1 (integrality in a direct product of rings)",
+    "tijd": "2026-11-05T15:16:57.309631+00:00"
+  },
+  {
+    "tag": "0H1C",
+    "bron": "Bourbaki Algèbre III §7 Prop 2 / Cartan-Eilenberg (kernel of base change map to exterior power)",
+    "tijd": "2026-11-05T15:16:57.323813+00:00"
+  },
+  {
+    "tag": "000C",
+    "bron": "Jech Set Theory Lemma 6.3 / Kunen Set Theory III §1 (cumulative hierarchy via axiom of regularity)",
+    "tijd": "2026-11-05T15:25:53.590087+00:00"
+  },
+  {
+    "tag": "000I",
+    "bron": "Bourbaki Théorie des ensembles IV §1 / EGA I §0 (bound on isomorphism classes of schemes of bounded size)",
+    "tijd": "2026-11-05T15:25:53.602247+00:00"
+  },
+  {
+    "tag": "000U",
+    "bron": "Mac Lane CWM I §6 / Jech Set Theory (existence of limit ordinal closing under bounded G-sets and countable limits)",
+    "tijd": "2026-11-05T15:25:53.614973+00:00"
+  },
+  {
+    "tag": "000V",
+    "bron": "Mac Lane CWM III (closure properties of the bounded category of G-sets)",
+    "tijd": "2026-11-05T15:25:53.627685+00:00"
+  },
+  {
+    "tag": "0010",
+    "bron": "Grothendieck Tohoku 1957 / Mac Lane CWM (small abelian subcategory with enough injectives)",
+    "tijd": "2026-11-05T15:25:53.640316+00:00"
+  },
+  {
+    "tag": "0069",
+    "bron": "Bourbaki Topologie Générale I §9 / Hochster (quasi-separated spectral space properties)",
+    "tijd": "2026-11-05T15:25:53.652957+00:00"
+  },
+  {
+    "tag": "01DK",
+    "bron": "Grothendieck Tohoku 1957 / Mac Lane CWM (functorial injective embedding for presheaves)",
+    "tijd": "2026-11-05T15:25:53.665155+00:00"
+  },
+  {
+    "tag": "01DU",
+    "bron": "Grothendieck Tohoku 1957 §3 / Weibel HA 2.3 (sheaves of modules have enough injectives)",
+    "tijd": "2026-11-05T15:25:53.677337+00:00"
+  },
+  {
+    "tag": "01MZ",
+    "bron": "EGA II §2.8 / Hartshorne AG II §2 (transitivity of morphisms of Proj)",
+    "tijd": "2026-11-05T15:25:53.689943+00:00"
+  },
+  {
+    "tag": "01O7",
+    "bron": "EGA II §3.1 & §3.2 (relative Proj module construction and properties)",
+    "tijd": "2026-11-05T15:25:53.702655+00:00"
+  },
+  {
+    "tag": "062N",
+    "bron": "EGA II §1.7 / Hartshorne AG II §5 (anti-equivalence between vector bundles and quasi-coherent modules)",
+    "tijd": "2026-11-05T15:25:53.715282+00:00"
+  },
+  {
+    "tag": "07ZH",
+    "bron": "EGA II §3.5 (transitivity of morphisms of relative Proj)",
+    "tijd": "2026-11-05T15:25:53.727480+00:00"
+  },
+  {
+    "tag": "01XW",
+    "bron": "Serre FAC §78 / EGA III §2.1 (higher direct images of twisting sheaves on projective space over base)",
+    "tijd": "2026-11-05T15:25:53.740082+00:00"
+  },
+  {
+    "tag": "0CYN",
+    "bron": "EGA II §5.4 / Hartshorne AG II §4 (closed subscheme of proper scheme over base is proper)",
+    "tijd": "2026-11-05T15:25:53.753234+00:00"
+  },
+  {
+    "tag": "039G",
+    "bron": "Raynaud Anneaux locaux henséliens I / EGA 0_IV §17.4 (unramifiedness is a stalk local condition)",
+    "tijd": "2026-11-05T15:25:53.764935+00:00"
+  },
+  {
+    "tag": "03RM",
+    "bron": "Milne Etale Cohomology III Thm 2.22 / Grothendieck Brauer I (vanishing of higher étale cohomology of Gm on curves)",
+    "tijd": "2026-11-05T15:25:53.777567+00:00"
+  },
+  {
+    "tag": "04DP",
+    "bron": "SGA 4 VIII §5 (criterion for property B in étale cohomology)",
+    "tijd": "2026-11-05T15:25:53.791147+00:00"
+  },
+  {
+    "tag": "0GIZ",
+    "bron": "Serre Linear Representations of Finite Groups II §8 / SGA 4½ (filtration of l-group modules annihilated by l^n)",
+    "tijd": "2026-11-05T15:25:53.803202+00:00"
+  },
+  {
+    "tag": "0GJ6",
+    "bron": "SGA 4 VIII §7 / Milne Etale Cohomology II §3 (specialization maps commute with pullback)",
+    "tijd": "2026-11-05T15:25:53.815371+00:00"
+  },
+  {
+    "tag": "0GKB",
+    "bron": "SGA 4½ Arcata IV §1 (tensor product of constructible sheaf with ring map is constructible)",
+    "tijd": "2026-11-05T15:25:53.828113+00:00"
+  },
+  {
+    "tag": "09G5",
+    "bron": "Bourbaki Algèbre V §1 Prop 1 / Lang Algebra V §1 (finite field extensions dimension inequality)",
+    "tijd": "2026-11-05T15:25:53.840500+00:00"
+  },
+  {
+    "tag": "09HP",
+    "bron": "Bourbaki Algèbre V §4 Prop 2 / Lang Algebra V §3 (intersection of normal field extensions is normal)",
+    "tijd": "2026-11-05T15:25:53.853768+00:00"
+  },
+  {
+    "tag": "09I5",
+    "bron": "Bourbaki Algèbre V §11 Thm 1 / Lang Algebra VI §9 (fundamental theorem of algebra via Galois theory)",
+    "tijd": "2026-11-05T15:25:53.866002+00:00"
+  },
+  {
+    "tag": "08XK",
+    "bron": "Gabriel Des catégories abéliennes 1962 / Stenström Rings of Quotients II (properties of essential extensions)",
+    "tijd": "2026-11-05T15:25:53.878281+00:00"
+  },
+  {
+    "tag": "0C05",
+    "bron": "Hartshorne Residues and Duality V §9 (characterization of Gorenstein morphisms)",
+    "tijd": "2026-11-05T15:25:53.889931+00:00"
+  },
+  {
+    "tag": "0CD7",
+    "bron": "Deligne-Mumford Publ. Math. IHES 1969 §1 / EGA IV (smooth relative dimension 1 is at-worst-nodal)",
+    "tijd": "2026-11-05T15:25:53.903145+00:00"
+  },
+  {
+    "tag": "0CNI",
+    "bron": "EGA I §9.1 (infinite products of affine schemes exist and are affine)",
+    "tijd": "2026-11-05T15:25:53.915264+00:00"
+  },
+  {
+    "tag": "0CNK",
+    "bron": "EGA II §6.1 / Bourbaki AC V §1 (infinite product of integral morphisms is integral)",
+    "tijd": "2026-11-05T15:25:53.928619+00:00"
+  },
+  {
+    "tag": "0E3W",
+    "bron": "Schlessinger Trans. AMS 1968 / Artin Algebraic Approximation (finite dimensionality of deformation spaces for proper schemes)",
+    "tijd": "2026-11-05T15:25:53.941075+00:00"
+  },
+  {
+    "tag": "0FXV",
+    "bron": "SGA 6 III §1 / EGA IV §1 (Tor independent schemes affine criterion)",
+    "tijd": "2026-11-05T15:25:53.952734+00:00"
+  },
+  {
+    "tag": "0FXW",
+    "bron": "SGA 6 III §1 / EGA IV §1 (flat base change of Tor independent schemes)",
+    "tijd": "2026-11-05T15:25:53.965387+00:00"
+  },
+  {
+    "tag": "0G0U",
+    "bron": "Artin Grothendieck topologies 1962 (schemes of finite type over countable ring form a countable category)",
+    "tijd": "2026-11-05T15:25:53.978537+00:00"
+  },
+  {
+    "tag": "0AKG",
+    "bron": "Artin Publ. Math. IHES 1969 / EGA 0_I §7 (algebraization by finite type algebra étale outside V(I))",
+    "tijd": "2026-11-05T15:25:53.990689+00:00"
+  },
+  {
+    "tag": "0GC5",
+    "bron": "EGA 0_I §7.5 (taut topologically of finite type adic homomorphism reduces to finite type)",
+    "tijd": "2026-11-05T15:25:54.003814+00:00"
+  },
+  {
+    "tag": "0GG6",
+    "bron": "EGA 0_I §7.5 / Fujiwara-Kato Rigid Geometry I (equivalence of finite-type and finite-type-red for Noetherian adic rings)",
+    "tijd": "2026-11-05T15:25:54.016410+00:00"
+  },
+  {
+    "tag": "0B2F",
+    "bron": "Hartshorne AG II §8 / EGA IV_4 §16.5 (differential map between tangent spaces dual to cotangent map)",
+    "tijd": "2026-11-05T15:25:54.029512+00:00"
+  },
+  {
+    "tag": "0B2P",
+    "bron": "Hartshorne AG I §2 & II §8 (projective space is a smooth projective variety)",
+    "tijd": "2026-11-05T15:25:54.042241+00:00"
+  }
+]
