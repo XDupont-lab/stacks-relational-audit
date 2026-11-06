@@ -3,12 +3,12 @@
 """
 verify.py — Independent Verification of the Stacks Project Relational Audit
 =============================================================================
-Audits and dynamically calculates:
-1. The 337 registered literature contracts closing classical omitted lemmas (Shell 1).
-2. The Three-Shell classification of remaining open transfers (Shell 2 & Shell 3).
-3. The 34 patched theory chapters in the unified LaTeX diff (337 hunks).
-4. DYNAMIC CASCADE FIXPOINT CALCULATION over the 39,027 proof-dependency graph edges.
-5. Total account reconciliation (21,299 mathematical objects across 112 chapters).
+Recomputes the nulmeting cone and the healed cone from the proof graph.
+
+The ledger holds 337 contracts. Sixty-eight of them were already registered
+when the nulmeting stood at 839 open transfers and a cone of 8,630. The other
+269 seal Shell 1. Seeding the baseline with all 337 tags mixes those two
+generations and inflates the cone to 9,628.
 """
 
 from __future__ import annotations
@@ -23,6 +23,39 @@ BASE_DIR = Path(__file__).resolve().parent
 DATA_DIR = BASE_DIR / "data"
 PATCH_FILE = BASE_DIR / "patches" / "stacks_34_chapters_closure.patch"
 
+# Wave 11, 5 Nov 2026 15:05 CET. Contracts stamped earlier are the 68 already
+# on the ledger. Contracts from this instant on are the 269 Shell 1 seals.
+NULMETING_UTC = "2026-11-05T14:00:00+00:00"
+
+EXPECTED = {
+    "contracts": 337,
+    "pre_baseline_contracts": 68,
+    "shell1_seals": 269,
+    "shell1_open": 0,
+    "shell2": 287,
+    "shell3": 283,
+    "open_residual": 570,
+    "baseline_seeds": 839,
+    "edges": 39027,
+    "baseline_cone": 8630,
+    "healed_cone": 7848,
+    "freed": 782,
+    "patch_files": 34,
+    "patch_hunks": 337,
+}
+
+
+def cascade(parents: dict, seeds: set) -> int:
+    visited = set(seeds)
+    queue = deque(seeds)
+    while queue:
+        cur = queue.popleft()
+        for parent in parents.get(cur, ()):
+            if parent not in visited:
+                visited.add(parent)
+                queue.append(parent)
+    return len(visited)
+
 
 def main() -> int:
     t0 = time.time()
@@ -32,108 +65,99 @@ def main() -> int:
     print(" Method  : Relational Double-Entry Ledger (Stevin - Ijiri - Ellerman)")
     print("=" * 78)
 
-    # 1. Check contracts
+    errors: list[str] = []
+
+    def expect(name: str, got, want) -> None:
+        mark = "OK" if got == want else "FAIL"
+        print(f"    [{mark}] {name}: {got}")
+        if got != want:
+            errors.append(f"{name}: got {got}, want {want}")
+
     contracts_file = DATA_DIR / "contracts.json"
-    if not contracts_file.exists():
-        print(f"[FAIL] Missing {contracts_file}")
-        return 1
-    with open(contracts_file, "r", encoding="utf-8") as f:
-        contracts = json.load(f)
-
-    # 2. Check shells
     schillen_file = DATA_DIR / "schillen.json"
-    if not schillen_file.exists():
-        print(f"[FAIL] Missing {schillen_file}")
-        return 1
-    with open(schillen_file, "r", encoding="utf-8") as f:
-        schillen = json.load(f)
-
-    # 3. Check patch
-    if not PATCH_FILE.exists():
-        print(f"[FAIL] Missing {PATCH_FILE}")
-        return 1
-    patch_size = PATCH_FILE.stat().st_size
-
-    # Verify counts
-    shell_counts = Counter(schillen.values())
-    s2_count = shell_counts.get("SCHIL2_DIDACTISCH", 0)
-    s3_count = shell_counts.get("SCHIL3_FRONTIER", 0)
-    s1_open = shell_counts.get("SCHIL1_CANON", 0)
-
-    contract_count = len(contracts)
-    unique_contract_tags = {c["tag"] for c in contracts}
-
-    print(f"\n[1] EXTERNAL LITERATURE CONTRACTS (Shell 1 Closure)")
-    print(f"    - Total registered contracts : {contract_count}")
-    print(f"    - Unique Shell 1 tags healed : {len(unique_contract_tags)}")
-    print(f"    - Standard literature used   : EGA, SGA, Hartshorne, Mac Lane, Matsumura, Weibel, Bourbaki")
-    print(f"    - Shell 1 (Canon Debt) open  : {s1_open} (CANONICALLY CLOSED: 100%)")
-
-    print(f"\n[2] EPISTEMIC THREE-SHELL RESIDUAL TRIAGE")
-    print(f"    - Shell 1 (Classical Canon)  : {s1_open:5d}  (0.0%)  -> Fully solved and sealed on disk")
-    print(f"    - Shell 2 (Didactic Bound)   : {s2_count:5d} (50.4%) -> Deliberately preserved exercises")
-    print(f"    - Shell 3 (Research Frontier): {s3_count:5d} (49.6%) -> Active open theory boundaries")
-    print(f"    - Total open transfers       : {s2_count + s3_count:5d}")
-
-    print(f"\n[3] LATEX SOURCE REPAIR ARTIFACTS")
-    print(f"    - Patch file                 : {PATCH_FILE.name}")
-    print(f"    - Patch size                 : {patch_size / 1024:.1f} KB")
-    print(f"    - Substantive chapters healed: 34 chapters")
-    print(f"    - Format                     : Pure human-readable LaTeX (zero machine-code translation)")
-
-    # 4. Live Graph Traversal & Dynamic Cascade Calculation
     edges_file = DATA_DIR / "graph_edges.json"
-    if edges_file.exists():
-        with open(edges_file, "r", encoding="utf-8") as f:
-            edges = json.load(f)
+    for path in (contracts_file, schillen_file, edges_file, PATCH_FILE):
+        if not path.exists():
+            print(f"[FAIL] Missing {path}")
+            return 1
 
-        parents = defaultdict(set)
-        for src, tgt in edges:
-            if src and tgt:
-                parents[tgt].add(src)
+    contracts = json.loads(contracts_file.read_text(encoding="utf-8"))
+    schillen = json.loads(schillen_file.read_text(encoding="utf-8"))
+    edges = json.loads(edges_file.read_text(encoding="utf-8"))
 
-        # Active open transfers currently: Shell 2 + Shell 3 (570 tags)
-        open_now = set(schillen.keys())
-        
-        # Baseline open transfers: current open + healed Shell 1 tags (839 tags)
-        open_baseline = open_now | unique_contract_tags
+    for contract in contracts:
+        stamp = contract.get("tijd", "")
+        if not (isinstance(stamp, str) and stamp.endswith("+00:00") and "T" in stamp):
+            errors.append(f"unstamped contract {contract.get('tag')}")
 
-        def calc_cascade(seed_tags):
-            visited = set(seed_tags)
-            q = deque(seed_tags)
-            while q:
-                cur = q.popleft()
-                for p in parents.get(cur, ()):
-                    if p not in visited:
-                        visited.add(p)
-                        q.append(p)
-            return len(visited)
+    early = [c for c in contracts if c["tijd"] < NULMETING_UTC]
+    late = [c for c in contracts if c["tijd"] >= NULMETING_UTC]
+    early_tags = {c["tag"] for c in early}
+    late_tags = {c["tag"] for c in late}
+    shell_counts = Counter(schillen.values())
+    open_now = set(schillen)
 
-        cascade_baseline = calc_cascade(open_baseline)
-        cascade_now = calc_cascade(open_now)
-        theorems_freed = cascade_baseline - cascade_now
+    print("\n[1] LITERATURE CONTRACTS")
+    expect("contracts", len(contracts), EXPECTED["contracts"])
+    expect("already on the ledger at the nulmeting", len(early), EXPECTED["pre_baseline_contracts"])
+    expect("Shell 1 seals since the nulmeting", len(late), EXPECTED["shell1_seals"])
+    expect("distinct Shell 1 tags", len(late_tags), EXPECTED["shell1_seals"])
+    if early_tags & late_tags:
+        errors.append("a tag is both pre-baseline and a Shell 1 seal")
+    if early_tags & open_now or late_tags & open_now:
+        errors.append("a sealed tag is still in the open residual")
 
-        print(f"\n[4] DYNAMIC GRAPH CASCADE FIXPOINT CALCULATION ({len(edges):,} proof edges)")
-        print(f"    - Live computation time      : {time.time() - t0:.3f} seconds")
-        print(f"    - Seed open tags (Baseline)  : {len(open_baseline):,} (570 residual + {len(unique_contract_tags)} Shell 1)")
-        print(f"    - Fixpoint Cone (Baseline)   : {cascade_baseline:,} theorems")
-        print(f"    - Seed open tags (Healed)    : {len(open_now):,} (strictly Shell 2 + Shell 3)")
-        print(f"    - Fixpoint Cone (Healed)     : {cascade_now:,} theorems")
-        print(f"    - Theorems formally freed    : {theorems_freed:,} theorems liberated from unbacked debt!")
+    print("\n[2] RESIDUAL SHELLS")
+    expect("Shell 1 still open", shell_counts.get("SCHIL1_CANON", 0), EXPECTED["shell1_open"])
+    expect("Shell 2 didactic", shell_counts.get("SCHIL2_DIDACTISCH", 0), EXPECTED["shell2"])
+    expect("Shell 3 frontier", shell_counts.get("SCHIL3_FRONTIER", 0), EXPECTED["shell3"])
+    expect("open transfers", len(open_now), EXPECTED["open_residual"])
+
+    raw_patch = PATCH_FILE.read_bytes()
+    if raw_patch.startswith((b"\xff\xfe", b"\xfe\xff")):
+        errors.append("patch is UTF-16; git apply needs UTF-8")
+        patch_text = ""
     else:
-        cascade_now = 7848
-        theorems_freed = 782
+        patch_text = raw_patch.decode("utf-8")
+    if patch_text.startswith("\ufeff"):
+        errors.append("patch carries a BOM")
+    if "\u251c" in patch_text or "\ufffd" in patch_text:
+        errors.append("patch contains mojibake")
+    patch_files = sum(1 for line in patch_text.splitlines() if line.startswith("diff --git "))
+    patch_hunks = sum(1 for line in patch_text.splitlines() if line.startswith("@@"))
 
-    # 5. Invariant Status
-    print(f"\n[5] INVARIANT STATUS & RECONCILIATION")
-    print(f"    [OK] MONOTONICITY     : Dependency cascade decreased dynamically ({cascade_now} <= baseline)")
-    print(f"    [OK] NO REGRESSION    : 0 previously closed theorems reverted to open")
-    print(f"    [OK] TRACEABILITY     : All {contract_count} closures mapped to canonical external literature")
-    print(f"    [OK] RECONCILIATION   : 21,505 Git chunks - 206 meta chunks = 21,299 theory accounts")
-    print(f"    [OK] MULTI-CLAIM TAGS : 269 Shell 1 tags resolved 273 account units (4 compound lemmas)")
+    print("\n[3] LATEX PATCH")
+    print(f"    - File                       : {PATCH_FILE.name}")
+    print(f"    - Size                       : {len(raw_patch) / 1024:.1f} KB")
+    expect("chapters in the patch", patch_files, EXPECTED["patch_files"])
+    expect("hunks in the patch", patch_hunks, EXPECTED["patch_hunks"])
+
+    parents = defaultdict(set)
+    for src, tgt in edges:
+        if src and tgt:
+            parents[tgt].add(src)
+
+    baseline_seeds = open_now | late_tags
+    cascade_baseline = cascade(parents, baseline_seeds)
+    cascade_now = cascade(parents, open_now)
+    freed = cascade_baseline - cascade_now
+
+    print(f"\n[4] CASCADE ({len(edges):,} proof edges, {time.time() - t0:.3f}s)")
+    expect("proof edges", len(edges), EXPECTED["edges"])
+    expect("baseline seeds (570 + 269)", len(baseline_seeds), EXPECTED["baseline_seeds"])
+    expect("baseline cone", cascade_baseline, EXPECTED["baseline_cone"])
+    expect("healed cone", cascade_now, EXPECTED["healed_cone"])
+    expect("theorems freed", freed, EXPECTED["freed"])
 
     print("\n" + "=" * 78)
-    print(" VERIFICATION RESULT: [PASSED] ALL INVARIANTS SATISFIED (LIVE GRAPH VERIFIED)")
+    if errors:
+        print(f" VERIFICATION RESULT: [FAILED] {len(errors)} CHECK(S)")
+        for err in errors:
+            print(f"    - {err}")
+        print("=" * 78)
+        return 1
+
+    print(" VERIFICATION RESULT: [PASSED] CONE RECOMPUTED FROM THE GRAPH")
     print("=" * 78)
     return 0
 

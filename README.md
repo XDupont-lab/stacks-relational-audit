@@ -55,7 +55,7 @@ To guarantee that mathematical interpretations never corrupt raw source records,
 
 ## 4. Canonical Closure & Verification Metrics
 
-Across the 34 affected theory chapters, all 269 Shell 1 tags were proved physically in LaTeX on disk and sealed with **337 traceable literature contracts**:
+Across the 34 affected theory chapters, all 269 Shell 1 tags were proved physically in LaTeX on disk. The ledger holds **337 literature contracts**. Sixty-eight of them were already registered when the nulmeting stood at 839 open transfers and a cone of 8,630. The other 269 seal those Shell 1 tags. The cascade is seeded with the 269 plus the 570 residual transfers.
 
 | Metric | Initial Audit (Baseline) | Healed State | Net Delta |
 | :--- | :--- | :--- | :--- |
@@ -86,10 +86,11 @@ stacks-relational-audit/
 ├── verify.py                      # Standalone Python script verifying all metrics and contracts
 ├── LICENSE                        # MIT License
 ├── data/
-│   ├── contracts.json             # 337 literature contracts (EGA, SGA, Hartshorne, Mac Lane, etc.)
-│   └── schillen.json              # Epistemic triage mapping for Shell 1, 2, and 3
+│   ├── contracts.json             # 337 literature contracts (68 already on the ledger at the nulmeting, 269 Shell 1 seals)
+│   ├── schillen.json              # Residual open transfers: Shell 2 and Shell 3 (570 tags)
+│   └── graph_edges.json           # 39,027 proof-dependency edges
 └── patches/
-    └── stacks_34_chapters_closure.patch # Unified LaTeX patch for all 34 healed chapters (~778 KB)
+    └── stacks_34_chapters_closure.patch # Unified LaTeX patch for all 34 healed chapters, UTF-8 (382.6 KB)
 ```
 
 ---
